@@ -1,1 +1,1 @@
-<h3 *ngFor="let task of tasks">{{task.text}}</h3>
+<app-task-item *ngFor="let task of tasks" [task]="task"></app-task-item>
