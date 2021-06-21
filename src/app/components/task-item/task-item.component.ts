@@ -12,6 +12,7 @@ export class TaskItemComponent implements OnInit {
 
   @Input()
   task!: Task;
+  faTimes = faTimes;
 
   constructor() { }
 
